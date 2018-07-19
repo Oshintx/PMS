@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e39f7811-1047-4af9-99a6-995028d85895" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Angular-Front/.angular-cli.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/.angular-cli.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular-Front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular-Front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular-Front/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular-Front/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/main.ts" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="authapp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="auth.service.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/service/auth.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="261" column="3" lean-forward="true" selection-start-line="261" selection-start-column="3" selection-end-line="261" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/profile/profile.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create-project.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/create-project/create-project.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="86" selection-start-line="48" selection-start-column="79" selection-end-line="48" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/project.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/routes/projects.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projectTasks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/routes/projectTasks.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2771">
+              <caret line="163" column="24" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create-project.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/create-project/create-project.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3859">
+              <caret line="234" column="30" selection-start-line="234" selection-start-column="30" selection-end-line="234" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>projectmanger</find>
+      <find>getiamcreatedprojects</find>
+      <find>getprojectbyprojectnumberandaddmembers</find>
+      <find>currentUser</find>
+      <find>updat</find>
+      <find>getmemberstoproject</find>
+      <find />
+      <find>editprofile</find>
+      <find>myciicle</find>
+      <find>membertask</find>
+      <find>push</find>
+      <find>update</find>
+      <find>updateprojectdetails</find>
+      <find>id</find>
+      <find>footer</find>
+      <find>Members in task</find>
+      <find>Below Is The List of On Goin Projects</find>
+      <find>panal-heading</find>
+      <find>Members in created Project</find>
+      <find>Tasks created to Project</find>
+      <find>Members added to Task</find>
+      <find>router</find>
+      <find>Add Members To Project</find>
+      <find>get</find>
+      <find>allprojects</find>
+      <find>createproject</find>
+      <find>createaproject</find>
+      <find>Tasks Of Project</find>
+      <find>put</find>
+      <find>delete</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Angular-Front" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/searchmemberstoproject/searchmemberstoproject.component.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/searchmemberstoproject/memberprojectcount.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/create-project/mycircle.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/serchtasks/serchtasks.component.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/createdbyme/memberprojectcount.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/display-requests/display-requests.component.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/testing/rest-test.js" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/create-project/project.ts" />
+        <option value="$PROJECT_DIR$/models/memberProject.js" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/dashboard/projmember.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/create-project/memberprojectcount.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/createdbyme/tasks.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/ongoinprojects/projectmember.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/ongoinprojects/member.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/ongoinprojects/task.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/ongoinprojects/ongoinprojects.component.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/dashboard/project.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/dashboard/circlemembers.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/create-project/task.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/mytasks/tasks.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/mytasks/mytasks.component.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/createdbyme/createdbyme.component.ts" />
+        <option value="$PROJECT_DIR$/controller/routes/projectTasks.js" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/profile/profile.component.ts" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/index.html" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/navbar/navbar.component.html" />
+        <option value="$PROJECT_DIR$/models/projectTask.js" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/dashboard/dashboard.component.html" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/register/register.component.html" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/login/login.component.html" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/mytasks/mytasks.component.html" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/notices/notices.component.html" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/ongoinprojects/ongoinprojects.component.html" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/profile/profile.component.html" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/create-project/create-project.component.html" />
+        <option value="$PROJECT_DIR$/models/user.js" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/displayusers/displayusers.component.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/create-project/create-project.component.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/display-requests/display-requests.component.html" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/displayusers/displayusers.component.html" />
+        <option value="$PROJECT_DIR$/models/project.js" />
+        <option value="$PROJECT_DIR$/controller/routes/projects.js" />
+        <option value="$PROJECT_DIR$/controller/routes/users.js" />
+        <option value="$PROJECT_DIR$/testing/test.js" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/service/auth.service.ts" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/createdbyme/createdbyme.component.html" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/dashboard/dashboard.component.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/Angular-Front/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Angular-Front/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="29" />
+    <option name="width" value="1346" />
+    <option name="height" value="692" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="authapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="authapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular-Front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="authapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular-Front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="authapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular-Front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="authapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular-Front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="authapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular-Front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="create-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="authapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular-Front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="authapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular-Front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="authapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular-Front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="authapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="authapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\new working authapp\27045261\authapp\Angular-Front\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\AAF\webstormProjects\authapp\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\new working authapp\authapp\Angular-Front\src\app\components\createdbyme" />
+      <recent name="F:\AAF\webstormProjects\authapp\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="projects.js" type="MongoRunConfiguration" factoryName="Mongo" temporary="true">
+      <setting name="path" value="$PROJECT_DIR$/routes/projects.js" />
+      <setting name="shellParams" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e39f7811-1047-4af9-99a6-995028d85895" name="Default" comment="" />
+      <created>1523963955141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523963955141</updated>
+      <workItem from="1523963958046" duration="76664000" />
+      <workItem from="1524123583432" duration="51384000" />
+      <workItem from="1524303246105" duration="37040000" />
+      <workItem from="1524430326169" duration="92000" />
+      <workItem from="1524430449996" duration="17000" />
+      <workItem from="1524430932480" duration="3287000" />
+      <workItem from="1524493352744" duration="1763000" />
+      <workItem from="1524495205436" duration="1069000" />
+      <workItem from="1524509764236" duration="2150000" />
+      <workItem from="1524564426569" duration="33551000" />
+      <workItem from="1524725166988" duration="5943000" />
+      <workItem from="1524742348745" duration="623000" />
+      <workItem from="1524743234976" duration="169000" />
+      <workItem from="1524743803412" duration="186000" />
+      <workItem from="1524754787724" duration="40773000" />
+      <workItem from="1524891023640" duration="19000" />
+      <workItem from="1524891894049" duration="1372000" />
+      <workItem from="1524990504959" duration="631000" />
+      <workItem from="1524991161549" duration="1101000" />
+      <workItem from="1524995876733" duration="971000" />
+      <workItem from="1524997361097" duration="478000" />
+      <workItem from="1525067917888" duration="649000" />
+      <workItem from="1525076165348" duration="26069000" />
+      <workItem from="1525182660480" duration="4530000" />
+      <workItem from="1525273145030" duration="4120000" />
+      <workItem from="1525428069460" duration="19000" />
+      <workItem from="1525428323045" duration="932000" />
+      <workItem from="1526962168851" duration="753000" />
+      <workItem from="1526967240691" duration="14295000" />
+      <workItem from="1526992498771" duration="181000" />
+      <workItem from="1526992893819" duration="60000" />
+      <workItem from="1526993283281" duration="384000" />
+      <workItem from="1526994005529" duration="108000" />
+      <workItem from="1526996121984" duration="1698000" />
+      <workItem from="1526998435391" duration="1638000" />
+      <workItem from="1527054043833" duration="7335000" />
+      <workItem from="1527062367863" duration="47002000" />
+      <workItem from="1527314676947" duration="47807000" />
+      <workItem from="1527403751855" duration="4780000" />
+      <workItem from="1527411523363" duration="14637000" />
+      <workItem from="1527434327891" duration="3561000" />
+      <workItem from="1527481118412" duration="857000" />
+      <workItem from="1527488314291" duration="914000" />
+      <workItem from="1527491657411" duration="29614000" />
+      <workItem from="1527535197040" duration="5441000" />
+      <workItem from="1527574470060" duration="4100000" />
+      <workItem from="1527660371153" duration="1128000" />
+      <workItem from="1527666871230" duration="4217000" />
+      <workItem from="1527671766407" duration="10720000" />
+      <workItem from="1527738299353" duration="26147000" />
+      <workItem from="1527773193263" duration="814000" />
+      <workItem from="1527828351343" duration="17619000" />
+      <workItem from="1527851543654" duration="1299000" />
+      <workItem from="1527853387377" duration="22651000" />
+      <workItem from="1527943097925" duration="637000" />
+      <workItem from="1527944527017" duration="6981000" />
+      <workItem from="1527951991358" duration="730000" />
+      <workItem from="1527961536146" duration="1257000" />
+      <workItem from="1527962864798" duration="13856000" />
+      <workItem from="1527994938588" duration="275000" />
+      <workItem from="1527995297983" duration="34586000" />
+      <workItem from="1528045210869" duration="12127000" />
+      <workItem from="1528080271686" duration="28669000" />
+      <workItem from="1528122591107" duration="34088000" />
+      <workItem from="1528223786757" duration="14542000" />
+      <workItem from="1528271522403" duration="292000" />
+      <workItem from="1528271852250" duration="19775000" />
+      <workItem from="1528339150162" duration="32231000" />
+      <workItem from="1528513356560" duration="2056000" />
+      <workItem from="1528540567511" duration="3854000" />
+      <workItem from="1528547237427" duration="9152000" />
+      <workItem from="1528556714692" duration="12976000" />
+      <workItem from="1528617238964" duration="3260000" />
+      <workItem from="1528624879760" duration="1401000" />
+      <workItem from="1528626328387" duration="36000" />
+      <workItem from="1528626801273" duration="3915000" />
+      <workItem from="1528693382925" duration="15676000" />
+      <workItem from="1528715003425" duration="11141000" />
+      <workItem from="1528742087330" duration="10170000" />
+      <workItem from="1528780481056" duration="2261000" />
+      <workItem from="1528792251535" duration="7505000" />
+      <workItem from="1528873502630" duration="31976000" />
+      <workItem from="1528942202430" duration="2402000" />
+      <workItem from="1528947422914" duration="1727000" />
+      <workItem from="1528951576041" duration="7552000" />
+      <workItem from="1528960939400" duration="4082000" />
+      <workItem from="1528965931263" duration="2975000" />
+      <workItem from="1528972488707" duration="771000" />
+      <workItem from="1528976115052" duration="1667000" />
+      <workItem from="1528979968325" duration="9030000" />
+      <workItem from="1529074346933" duration="1951000" />
+      <workItem from="1529077107288" duration="18704000" />
+      <workItem from="1529117440166" duration="1987000" />
+      <workItem from="1529120731798" duration="14041000" />
+      <workItem from="1529142799961" duration="3838000" />
+      <workItem from="1529147722420" duration="17673000" />
+      <workItem from="1529172715861" duration="2752000" />
+      <workItem from="1529175699704" duration="11024000" />
+      <workItem from="1529187083400" duration="3000" />
+      <workItem from="1529208607187" duration="11984000" />
+      <workItem from="1529221092726" duration="214000" />
+      <workItem from="1529221327733" duration="918000" />
+      <workItem from="1529222777101" duration="132000" />
+      <workItem from="1529224550159" duration="4126000" />
+      <workItem from="1529236006683" duration="15563000" />
+      <workItem from="1529255173080" duration="15313000" />
+      <workItem from="1529271620270" duration="2000" />
+      <workItem from="1529272903506" duration="2515000" />
+      <workItem from="1529275611255" duration="139000" />
+      <workItem from="1529288189444" duration="18956000" />
+      <workItem from="1529310664724" duration="20981000" />
+      <workItem from="1529335302415" duration="2739000" />
+      <workItem from="1529338288251" duration="1809000" />
+      <workItem from="1529340119625" duration="634000" />
+      <workItem from="1529588047865" duration="1524000" />
+      <workItem from="1529589595605" duration="353000" />
+      <workItem from="1529590815470" duration="236000" />
+      <workItem from="1529591218218" duration="2463000" />
+      <workItem from="1529655738445" duration="152000" />
+      <workItem from="1529660121817" duration="25000" />
+      <workItem from="1529660277564" duration="20000" />
+      <workItem from="1529671301474" duration="1220000" />
+      <workItem from="1529687162872" duration="21854000" />
+      <workItem from="1529842630908" duration="1151000" />
+      <workItem from="1529860374714" duration="1154000" />
+      <workItem from="1529897242376" duration="10632000" />
+      <workItem from="1529948165809" duration="17567000" />
+      <workItem from="1530363633362" duration="8844000" />
+      <workItem from="1530375594945" duration="12944000" />
+      <workItem from="1530388640235" duration="2114000" />
+      <workItem from="1530414639611" duration="21692000" />
+      <workItem from="1530799168285" duration="1591000" />
+      <workItem from="1530810274058" duration="39000" />
+      <workItem from="1530855014636" duration="1281000" />
+      <workItem from="1530871469214" duration="57000" />
+      <workItem from="1530940804911" duration="941000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1186845000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4969743" weight="0.32730263" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.18381241" side_tool="true" weight="0.34210527" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49092284" weight="0.32730263" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.8161876" visible="true" weight="0.34488449" />
+      <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32894737" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48519737" visible="true" weight="0.21785174" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
+      <window_info id="Favorites" order="2" sideWeight="0.51480263" side_tool="true" weight="0.2753404" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49394855" weight="0.32894737" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32894737" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" weight="0.32980332" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/assets/images/user.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/assets/images/network.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/create-project/task.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/create-project/create-project.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/polyfills.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/test.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/tsconfig.app.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/tsconfig.spec.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/login/login.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/create-project/create-project.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/login/login.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/navbar/navbar.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/dashboard/projmember.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/projectTask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/node_modules/@types/node/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="670" column="21" selection-start-line="670" selection-start-column="21" selection-end-line="670" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/dashboard/dashboard.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3600">
+          <caret line="180" column="153" selection-start-line="180" selection-start-column="137" selection-end-line="180" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/navbar/navbar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1055">
+          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/membersincreatedproject/membersincreatedproject.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/mytasks/mytasks.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/notices/notices.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335">
+          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/ongoinprojects/ongoinprojects.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="191" column="70" selection-start-line="191" selection-start-column="70" selection-end-line="191" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/profile/profile.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1215">
+          <caret line="162" column="70" selection-start-line="162" selection-start-column="70" selection-end-line="162" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/searchmemberstoproject/searchmemberstoproject.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/searchmemberstotasks/searchmemberstotasks.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/updateusers/updateusers.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/project/project.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/register/register.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/displayusers/displayusers.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="86" column="40" selection-start-line="86" selection-start-column="2" selection-end-line="86" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/display-requests/display-requests.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/displayusers/displayusers.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="51" column="64" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/createdbyme/createdbyme.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="153" column="45" selection-start-line="153" selection-start-column="45" selection-end-line="153" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="76" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/memberProject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/create-project/create-project.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="86" selection-start-line="48" selection-start-column="79" selection-end-line="48" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/routes/projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/routes/projectTasks.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2771">
+          <caret line="163" column="24" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/create-project/create-project.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3859">
+          <caret line="234" column="30" selection-start-line="234" selection-start-column="30" selection-end-line="234" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/profile/profile.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/dashboard/dashboard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/service/auth.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="261" column="3" lean-forward="true" selection-start-line="261" selection-start-column="3" selection-end-line="261" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
