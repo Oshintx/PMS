@@ -1,0 +1,64 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITP HMS</title>
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
+  <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+  <link rel="stylesheet" href="../assets/css/Features-Boxed.css">
+  <link rel="stylesheet" href="../assets/css/Map-Clean.css">
+  <link rel="stylesheet" href="../assets/css/Navigation-Clean1.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<div class="container container-fluid" style="background-color:#ffffff;">
+  <form class="form-inline" (submit)="confirmRequest()">
+    <div class="row">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li><a [routerLink]="['/dashboard']"><span>Dashboard </span></a></li>
+          <li><a><span>Add Members To Circle </span></a></li>
+        </ol>
+      </div>
+      <div class="col-md-8 col-md-offset-2" stylestyle="margin-top:90px;">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="table-responsive">
+              <table class="table table-striped">
+                <thead>
+                <tr>
+                  <th>Name </th>
+                  <th>email </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let user of users" >
+                  <td *ngIf="!donotdisplayUser(user.email) && !donotDisplayMembersInCircle(user.email) && !donotDisplayMembersInSentRequests(user.email) ">{{user.name}}</td>
+                  <td *ngIf="!donotdisplayUser(user.email)&& !donotDisplayMembersInCircle(user.email) && !donotDisplayMembersInSentRequests(user.email)">{{user.email}}</td>
+                  <td *ngIf="!donotdisplayUser(user.email) && !donotDisplayMembersInCircle(user.email)&& !donotDisplayMembersInSentRequests(user.email)">
+                    <div *ngIf="!returntruetoRemoverequestsSentUsers(user._id)" class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                          <input type="radio" name="options" autocomplete="off" (click)="addRequeststoArray(user.name,user.email,user._id)"> Send Request
+                        </label>
+                    </div>
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+              <td>
+                <div *ngIf="validateSendRequestsToSelectedButton()" class="form-group">
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-success">Send Requests to Selected Members</button>
+                  </div>
+                </div>
+              </td>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>

@@ -1,0 +1,108 @@
+<head>
+  <!-- Bootstrap core CSS-->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Page level plugin CSS-->
+  <link href="assets/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <!-- Custom styles for this template-->
+  <link href="assets/css/sb-admin.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+  <link rel="stylesheet" href="assets/fonts/material-icons.css">
+  <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+  <link rel="stylesheet" href="assets/css/Map-Clean.css">
+  <link rel="stylesheet" href="assets/css/Navigation-Clean1.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+<div style="height: 20px;"></div>
+
+
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg "   id="mainNav" *ngIf="authservice.loggedIn()">
+
+
+
+  <a class="navbar-brand" [routerLink]="['/dashboard']">Project Management Tool</a>
+
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+
+
+
+
+    <ul class="navbar-nav ml-auto">
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+
+      <li class="nav-item" *ngIf="authservice.loggedIn()">
+        <a class="nav-link" [routerLink]="['/requests']">Requests</a>
+      </li>
+
+      <li class="nav-item" *ngIf="authservice.loggedIn()">
+        <a class="nav-link" [routerLink]="['/displayusers']">Add To Circle</a>
+      </li>
+
+
+
+      <li class="nav-item" *ngIf="authservice.loggedIn()">
+        <a class="nav-link" [routerLink]="['/createaproject']">Project</a>
+      </li>
+
+
+
+
+      <li class="nav-item" *ngIf="authservice.loggedIn()">
+        <a class="nav-link" [routerLink]="['/notifications']">Notices</a>
+      </li>
+
+
+
+
+      <li class="nav-item" *ngIf="authservice.loggedIn()">
+        <a class="nav-link" [routerLink]="['/profile']">My Profile</a>
+      </li>
+
+
+
+
+    </ul>
+
+
+    <ul class="navbar-nav ml-auto">
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+
+
+
+
+      <li class="nav-item" *ngIf="authservice.loggedIn()">
+        <small>{{us?.name}}</small><br>
+        <small><b>{{us?.email}}</b></small><br>
+
+      </li>
+
+
+      <li class="nav-item" *ngIf="authservice.loggedIn()">
+        <a class="nav-link" href="#" (click)="logoutUser()"><img src="../assets/images/logout.png" alt="" height="20" width="20"></a>
+      </li>
+
+
+    </ul>
+
+
+
+  </div>
+</nav>
+<!--Navigation end-->
+</body>
+
+
+

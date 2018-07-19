@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITP HMS</title>
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
+  <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+  <link rel="stylesheet" href="../assets/css/Features-Boxed.css">
+  <link rel="stylesheet" href="../assets/css/Map-Clean.css">
+  <link rel="stylesheet" href="../assets/css/Navigation-Clean1.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+<div style="height: 40px;"></div>
+
+<div class="row">
+
+  <div class="col-md-6 col-md-offset-3 text-center">
+
+    <img src="../assets/images/group.png" alt="" height="70" width="70">
+    <div style="height: 40px;"></div>
+    <form class="form-horizontal" (submit)="registerData()">
+      <div class="col-md-20">
+        <div class="panel panel-primary">
+          <div class="panel-heading" style="background-color:#439A46;">
+            <h3 class="panel-title"><strong>User Registration</strong></h3></div>
+          <div class="panel-body"><span> </span>
+            <div class="form-group">
+              <div class="col-sm-4">
+                <label class="control-label">User Name </label>
+              </div>
+              <div class="col-sm-8">
+                <input class="form-control"  type="text" placeholder="User Name" name="username" [(ngModel)]="username" required="" >
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-4">
+                <label class="control-label">Name In Full </label>
+              </div>
+              <div class="col-sm-8">
+                <input class="form-control"  type="text" placeholder="Name" name="name" [(ngModel)]="name" required="">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-4">
+                <label class="control-label">User Email </label>
+              </div>
+              <div class="col-sm-8">
+                <input class="form-control"  type="email" placeholder="Email" name="email" [(ngModel)]="email"required="" >
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-4">
+                <label class="control-label">Password </label>
+              </div>
+              <div class="col-sm-8">
+                <input class="form-control"type="password" placeholder="Password" name="password" [(ngModel)]="password"required="">
+              </div>
+            </div>
+          </div>
+          <div class="panel-footer"><span> </span>
+          </div>
+
+          <div class="panel-footer"><span> </span>
+            <div class="form-group">
+              <div class="col-md-6 col-xs-6">
+                <button class="btn btn-success" type="submit">Register</button>
+              </div>
+
+              <div class="col-md-6 col-xs-6">
+                <a class="nav-link" [routerLink]="['/login']">Alredy have an acoount?</a>
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITP HMS</title>
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
+  <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+
+</head>
+
+<body style="background-color:rgb(255,255,255);">
+<div class="container container-fluid" style="background-color:#ffffff;">
+  <form class="form-inline">
+    <div class="row">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li><a  [routerLink]="['/dashboard']"><span>Dashboard </span></a></li>
+          <li><a><span>Requests</span></a></li>
+
+        </ol>
+      </div>
+      <div class="col-md-10 col-md-offset-1" style="margin-top:90px;">
+        <div class="panel panel-default">
+          <div class="panel-heading" style="background-color:#439A46;">
+            <h1 class="panel-title" style="font-size:25px;"><strong>Member requests</strong> </h1></div>
+          <div class="panel-body">
+
+            <div class="table-responsive">
+              <table class="table table-striped">
+                <caption>Requests</caption>
+                <thead>
+                <tr >
+                  <th>From name</th>
+                  <th>From Email </th>
+
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let re of reqArray">
+                  <td>{{re.fromName}} </td>
+                  <td>{{re.fromEmail}} </td>
+
+                  <td>
+                    <button class="btn btn-success" type="button" (click)="confirmRequest(re.fromEmail,re.toEmail)">Confirm</button>
+                  </td>
+
+                </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+</body>

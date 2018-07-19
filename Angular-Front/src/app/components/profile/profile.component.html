@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITP HMS</title>
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
+  <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+
+</head>
+
+<body style="background-color:rgb(251,252,252);">
+
+
+
+
+
+
+
+
+
+<div  *ngIf="!checkstatustodisplayeditprofile()" class="container container-fluid" style="background-color:#ffffff;">
+  <form class="form-horizontal">
+    <div class="row">
+      <div class="col-md-12">
+        <ol class="breadcrumb">
+          <li><a [routerLink]="['/dashboard']"><span>Dashboard </span></a></li>
+          <li><a><span>Profile </span></a></li>
+
+        </ol>
+      </div>
+      <div  *ngIf="user" class="col-md-8 col-md-offset-2" style="margin-top:90px;">
+        <div class="panel panel-default">
+          <div class="panel-heading" style="background-color:#439A46;">
+            <h1 class="panel-title" style="font-size:25px;"><strong>User Account</strong></h1></div>
+          <div class="panel-body">
+            <fieldset>
+              <legend class="text-center" style="font-size:18px;"><strong><span style="text-decoration: #0a6ebd;">Hi {{user.name}}</span></strong></legend>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <div class="col-sm-4">
+                      <label class="control-label"><strong>Name</strong></label>
+                    </div>
+                    <div class="col-sm-8">
+                      <p>{{user.name}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <div class="col-sm-4">
+                      <label class="control-label"><strong>User Name</strong></label>
+                    </div>
+                    <div class="col-sm-8">
+                      <p>{{user.username}} </p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <div class="col-sm-4">
+                      <label class="control-label"><strong>Email </strong></label>
+                    </div>
+                    <div class="col-sm-8">
+                      <p>{{user.email}} </p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <div class="col-sm-4">
+                      <label class="control-label"><strong>Phone</strong> </label>
+                    </div>
+                    <div class="col-sm-8">
+                      <p>{{user.contact}}</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <div class="col-sm-4">
+                      <label class="control-label"><strong>Address</strong> </label>
+                    </div>
+                    <div class="col-sm-8">
+                      <p>{{user.adress}}</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <div class="col-sm-4">
+                      <label class="control-label"><strong>occupation</strong> </label>
+                    </div>
+                    <div class="col-sm-8">
+                      <p>{{user.skils}}</p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <div class="col-sm-4">
+                      <label class="control-label"><strong>occupation</strong> </label>
+                    </div>
+                    <div class="col-sm-8">
+                      <p>{{user.occupation}}</p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="col-md-3 col-md-offset-2">
+                  <div class="form-group">
+                    <button class="btn btn-success" type="button" (click)="changestatustodisplayeditprofileform()">Update Profile</button>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <button class="btn btn-danger" type="button" (click)="deleteUsr(user._id)">Deactivate</button>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+<div *ngIf="checkstatustodisplayeditprofile()" class="container container-fluid" style="background-color:#ffffff;">
+  <form (submit)="updateprofile(user._id)">
+    <div class="row">
+      <div class="col-md-12">
+        <ol class="breadcrumb">
+          <li><a><span>Dashboard </span></a></li>
+          <li><a><span>Manage Admins </span></a></li>
+          <li><a><span>Register Admin</span></a></li>
+        </ol>
+      </div>
+      <div class="col-md-8 col-md-offset-2" style="margin-top:90px;">
+        <div class="panel panel-default">
+          <div class="panel-heading" style="background-color:#439A46;">
+            <h1 class="panel-title" style="font-size:25px;"><strong>Edit Profile</strong> </h1></div>
+          <div class="panel-body">
+            <legend style="font-size:18px;"><strong>Enter The Below Details To Edit Your Profile</strong></legend>
+            <fieldset>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="control-label">User Name</label>
+                    <input class="form-control" type="text" name="username" [(ngModel)]="username" required="">
+
+
+                  </div>
+
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="control-label">Name</label>
+                    <input class="form-control" type="text" name="name" [(ngModel)]="name" required="">
+                  </div>
+
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="control-label">Address</label>
+                    <input class="form-control" type="text" name="adress" [(ngModel)]="adress" required="">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="control-label">Contact</label>
+                    <input class="form-control" type="number" name="contact" [(ngModel)]="contact" required="">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="control-label">Skils</label>
+                    <textarea class="form-control" type="text" name="skils" [(ngModel)]="skils" required=""></textarea>
+                  </div>
+                </div>
+
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="control-label">Ocupation</label>
+                    <input class="form-control" type="text" name="occupation" [(ngModel)]="occupation" required="">
+                  </div>
+                </div>
+
+
+                <div *ngIf="!fieldvalidetor()" class="col-md-6">
+                  <div class="form-group">
+                    <button class="btn btn-success" type="submit">Update</button>
+                  </div>
+                </div>
+                <div *ngIf="!fieldvalidetor()" class="col-md-6">
+                  <div class="form-group">
+                    <button class="btn btn-warning" type="reset">Reset </button>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+
+
+
+
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
